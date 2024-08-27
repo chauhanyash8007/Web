@@ -1,0 +1,86 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: purple ;
+    background-color: deeppink !important;
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: white;
+}
+#myid p{
+    color:chartreuse;
+}
+div[id="myid"] p{
+    color: red;
+}
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+<!-- many levels we can skip a can write direct after nav>
+nav ul li a{
+    color: hotpink;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: rgb(45, 45, 201);
+    color: white;
+}
+
+<!--only one level means p is direct next to div>
+div>input{
+    background-color: black;
+}
+
+input[type="text"]{
+    color: red;
+    background-color: black;
+}
+input[type="password"]{
+    color: greenyellow;
+    background-color: black;
+
+}
+
+h1{
+    color: pink;
+}
+#greet{
+    color: yellow;
+}
+.myClass{
+    color: brown;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+button:active{
+    background-color:rgb(241, 18, 167);
+    color: white;
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+div:nth-of-type(2){
+    background-color: gold;
+}
+div:nth-of-type(2n){
+    background-color: gold;
+}
