@@ -1,7 +1,8 @@
-div{
-    background-color:yellow;
+div {
+  background-color: yellow;
 }
 
-input,button{
-    background-color: inherit;
+input,
+button {
+  background-color: inherit;
 }

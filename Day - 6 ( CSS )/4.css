@@ -1,86 +1,84 @@
-*{
-    font-family: 'Courier New', Courier, monospace;
+* {
+  font-family: "Courier New", Courier, monospace;
 }
-h3{
-    color: purple ;
-    background-color: deeppink !important;
+h3 {
+  color: purple;
+  background-color: deeppink !important;
 }
-h1,h3{
-    color: #b92b27;
+h1,
+h3 {
+  color: #b92b27;
 }
-#login{
-    background-color: white;
+#login {
+  background-color: white;
 }
-#signup{
-    background-color: #b92b27;
-    color: white;
+#signup {
+  background-color: #b92b27;
+  color: white;
 }
-.upvote{
-    background-color: green;
-    color: white;
+.upvote {
+  background-color: green;
+  color: white;
 }
-#myid p{
-    color:chartreuse;
+#myid p {
+  color: chartreuse;
 }
-div[id="myid"] p{
-    color: red;
+div[id="myid"] p {
+  color: red;
 }
-.post a{
-    color: purple;
-    background-color: yellow;
-}
-
-<!-- many levels we can skip a can write direct after nav>
-nav ul li a{
-    color: hotpink;
-}
-p + h3{
-    text-decoration: underline;
-}
-.upvote+button{
-    background-color: rgb(45, 45, 201);
-    color: white;
+.post a {
+  color: purple;
+  background-color: yellow;
 }
 
-<!--only one level means p is direct next to div>
-div>input{
-    background-color: black;
+<!-- many levels we can skip a can write direct after nav > nav ul li a {
+  color: hotpink;
+}
+p + h3 {
+  text-decoration: underline;
+}
+.upvote + button {
+  background-color: rgb(45, 45, 201);
+  color: white;
 }
 
-input[type="text"]{
-    color: red;
-    background-color: black;
-}
-input[type="password"]{
-    color: greenyellow;
-    background-color: black;
-
+<!--only one level means p is direct next to div > div > input {
+  background-color: black;
 }
 
-h1{
-    color: pink;
+input[type="text"] {
+  color: red;
+  background-color: black;
 }
-#greet{
-    color: yellow;
+input[type="password"] {
+  color: greenyellow;
+  background-color: black;
 }
-.myClass{
-    color: brown;
+
+h1 {
+  color: pink;
 }
-button:hover{
-    background-color: black;
-    color: white;
+#greet {
+  color: yellow;
 }
-button:active{
-    background-color:rgb(241, 18, 167);
-    color: white;
+.myClass {
+  color: brown;
 }
-input[type="radio"]:checked+label{
-    color: red;
-    font-weight: bold;
+button:hover {
+  background-color: black;
+  color: white;
 }
-div:nth-of-type(2){
-    background-color: gold;
+button:active {
+  background-color: rgb(241, 18, 167);
+  color: white;
 }
-div:nth-of-type(2n){
-    background-color: gold;
+input[type="radio"]:checked + label {
+  color: red;
+  font-weight: bold;
+}
+div:nth-of-type(2) {
+  background-color: gold;
+}
+div:nth-of-type(2n) {
+  background-color: gold;
 }

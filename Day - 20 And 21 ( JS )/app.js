@@ -1,26 +1,24 @@
-const sum = (a,b) =>{
-    console.log(a+b);
+const sum = (a, b) => {
+  console.log(a + b);
 };
 
-const cube = n =>{
-    console.log(n*n*n);
+const cube = (n) => {
+  console.log(n * n * n);
 };
 
-const mul = (a,b) => (
-    a*b
-)
+const mul = (a, b) => a * b;
 
 console.log("Hi");
 
-setTimeout(()=>{
-    console.log("Yash")
-},4000);
+setTimeout(() => {
+  console.log("Yash");
+}, 4000);
 
 console.log("i am");
 
-let id = setInterval(()=>{
-    console.log("Hello")
-},2000);
+let id = setInterval(() => {
+  console.log("Hello");
+}, 2000);
 
 console.log(id);
 clearInterval(id);
@@ -40,22 +38,18 @@ const isEven = (num) => num % 2 == 0;
 
 console.log(isEven(num));
 
-
 const object = {
-    message: 'Hello world',
+  message: "Hello world",
 
-    logMessage(){
-        console.log(this.message);
-    }
+  logMessage() {
+    console.log(this.message);
+  },
 };
 
-setTimeout(object.logMessage,1000);
+setTimeout(object.logMessage, 1000);
 
+let length = 4;
 
-let length =4;
-
-function callback(){
-    console.log(this.length);
+function callback() {
+  console.log(this.length);
 }
-
-
