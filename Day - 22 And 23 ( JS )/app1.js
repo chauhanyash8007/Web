@@ -48,3 +48,9 @@ function getRandomColor() {
   let color = `rgb(${red},${green},${blue})`;
   return color;
 }
+
+// it works on multiple elements
+let para = document.querySelector("p");
+para.addEventListener("click", function () {
+  console.log("para clicked");
+});
