@@ -91,8 +91,8 @@
 // let inp = document.querySelector("input");
 // inp.addEventListener("keydown", function (event) {
 //   console.log("key was pressed");
-//   console.log(event.key);
-//   console.log(event.code);
+//   console.log(event.key); // y the key that i have type from keyboard
+//   console.log(event.code); // code of than key
 // });
 // inp.addEventListener("keyup", function () {
 //   console.log("key was released");
@@ -121,7 +121,7 @@
 // });
 
 // user.addEventListener("input", function () {
-// it track only initial and final changes
+// it track every small changes
 //   console.log("input event");
 //   console.log("final value", this.value);
 // });

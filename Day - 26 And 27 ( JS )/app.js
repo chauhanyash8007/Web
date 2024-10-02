@@ -15,7 +15,7 @@
 //   });
 
 // 2
-// function grtNum() {
+// function getNum() {
 //   return new Promise((resolve, reject) => {
 //     setTimeout(() => {
 //       let num = Math.floor(Math.random() * 10) + 1;
@@ -26,9 +26,9 @@
 // }
 
 // async function demo() {
-//   await grtNum();
-//   await grtNum();
-//   await grtNum();
+//   await getNum();
+//   await getNum();
+//   await getNum();
 // }
 
 let h1 = document.querySelector("h1");
