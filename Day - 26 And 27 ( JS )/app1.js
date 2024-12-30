@@ -92,6 +92,8 @@ async function getJokes() {
   }
 }
 
+getJokes();
+
 let url4 = "http://universities.hipolabs.com/search?name=";
 
 let btn1 = document.querySelector("#search");

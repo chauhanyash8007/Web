@@ -11,6 +11,7 @@
 //   console.log(ans);
 // }
 
+// breakpoint add then refresh
 // three();
 // callBack = callbacks are type of function that we pass them as a argument(parameter) in another function
 //synchronous nature

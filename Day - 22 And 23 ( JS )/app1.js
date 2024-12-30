@@ -2,10 +2,6 @@
 // let btn = document.querySelector("button");
 // console.dir(btn);
 
-// btnS.onclick = function () {
-//   console.log("button is clicked");
-// };
-
 // function sayHello() {
 //   alert("Hello");
 // }
@@ -14,12 +10,19 @@
 // let btnS = document.querySelectorAll("button");
 
 // for (btn of btnS) {
+
 // btn.onclick = sayHello;
-// btn.onclick = sayName; for this line can only give one event so for multiple events we need eventListener
+// btn.onclick = sayName;
+// for this line can only give one event so for multiple events we need eventListener
 // console.dir(btn);
+
 // btn.onmouseenter = function () {
-// console.log("You Hover on the button");
+//   console.log("You Hover on the button");
 // };
+// btn.onclick = function () {
+//   console.log("button is clicked");
+// };
+
 // btn.addEventListener("click", sayHello);
 // btn.addEventListener("click", sayName);
 // btn.addEventListener("dblclick", function () {
@@ -104,13 +107,13 @@
 //   event.preventDefault();
 // console.dir(form);
 // console.log("form was submitted");
-// let user = document.querySelector("#user");
+//   let user = document.querySelector("#user");
 // let user = this.elements[0]; // form.elements[0]
-// let pass = document.querySelector("#pass");
+//   let pass = document.querySelector("#pass");
 // let pass = this.elements[1];
-// console.dir(input); user
-// console.log(user.value);
-// console.log(pass.value);
+// console.dir(input);
+//   console.log(user.value);
+//   console.log(pass.value);
 // });
 
 // let user = document.querySelector("#user");
@@ -127,12 +130,12 @@
 // });
 
 // 10
-let inp = document.querySelector("#text");
-let p = document.querySelector("p");
-inp.addEventListener("input", function () {
-  console.log(inp.value);
-  p.innerText = inp.value;
-});
+// let inp = document.querySelector("#text");
+// let p = document.querySelector("p");
+// inp.addEventListener("input", function () {
+//   console.log(inp.value);
+//   p.innerText = inp.value;
+// });
 // practice Question
 let input = document.querySelector("#input");
 input.addEventListener("mouseout", function () {
