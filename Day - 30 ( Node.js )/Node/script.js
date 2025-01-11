@@ -17,13 +17,15 @@
 // #1 Require from 1 file to 2 file
 
 // By default module.exports  sends an empty object
-// const someValue = require("./maths"); -> ./ require
+// -> ./ require
+// const someValue = require("./maths.js");
 // console.log(someValue);
 // console.log(someValue.sum(1, 2));
 // console.log(someValue.PI);
 
 // #2 Require From 1 folder(directory) to 2 folder
-// const fruitsInfo = require("./Fruits"); // ./ require
+// ./ require
+// const fruitsInfo = require("./Fruits");
 // console.log(fruitsInfo);
 
 // Extra

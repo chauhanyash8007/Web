@@ -8,7 +8,7 @@
   "author": "Yash",
   "license": "ISC",
   "description": "",
-  "type": "module",
+  "type":"module",
   "dependencies": {
     "random-words": "^2.0.1"
   }

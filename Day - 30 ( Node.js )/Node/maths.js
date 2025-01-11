@@ -52,7 +52,7 @@
 // import module -> require vs import
 // 1) we can use require and exports(module.exports)
 // 2) we can use import and export
-// note -> don't use both only is allowed at a time
+// note -> don't use both only 1 is allowed at a time
 
 export const sum = (a, b) => a + b;
 export const mul = (a, b) => a * b;
