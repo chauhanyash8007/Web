@@ -52,11 +52,18 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
   res.send("Hello i am root");
 });
+
+// here :username is treated as variable in our request as parameter
 app.get("/:username/:id", (req, res) => {
+  console.log(req.params);
   let { username, id } = req.params;
   res.send(`<h1>Welcome To the page of @${username}</h1>`);
 });
+
+// here q=something is our query string request url = /search?q=something
+// in parameters we send additional information in the form of query string that come and stores in req.query
 app.get("/search", (req, res) => {
+  console.log(req.query);
   let { q } = req.query;
   if (!q) {
     res.send("<h1>Nothing Searched</h1>");
