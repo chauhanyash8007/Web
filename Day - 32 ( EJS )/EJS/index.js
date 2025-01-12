@@ -2,9 +2,10 @@ const express = require("express"); // don't need to require EJS express has alr
 let app = express();
 let port = 3000;
 
+// type npm init -y to instant creation of packages.json
 let path = require("path");
 
-app.set("view engine", "ejs"); // view engine -> template engine ( for creating templates )
+app.set("view engine", "ejs"); // view engine -> template engine ( for creating templates ) for showing rendering templates ( pages )
 
 // it is basically used to solve the problem of that while the running the server from outside
 // of the view folder Directory
