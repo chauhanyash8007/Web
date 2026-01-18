@@ -12,8 +12,11 @@
   background-color: pink;
   border: 2px solid black;
   border-radius: 50%;
-  display: inline-block;
+  display: inline-block; 
 }
+
+/* here because of inline .box it will ignore all property so if you want .box all div inline with css
+    you need to use inline-block */
 li {
   display: inline;
 }
